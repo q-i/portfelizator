@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="Catalog.Портфели" id="2204501b-5463-47bc-883b-d8d8fdc34f34" configVersion="dc6936f16aed1b45a72b86c9f448be5900000000">
+			<Metadata name="Catalog.Портфели.Attribute.ТикерЭталон" id="09ec3d7a-0926-492a-9b24-bef39f22b538"/>
+			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля" id="5aa54e2b-7bf1-4d2b-bc9a-793caa13f5ad"/>
+			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля.Attribute.Доля" id="62309494-7c61-4eed-8b87-3e8ecbeab023"/>
+			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля.Attribute.Тикер" id="9dee4e0b-3594-4c53-b6f8-5cf0e05acb53"/>
+		</Metadata>
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="2c2bd0fba2d0ed45980900dbacb7120300000000"/>
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="91dd2f964b326345b691b70a9b673fa100000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="d820d461-d67e-42e6-af75-07d5b2dcc819" configVersion="a2f69184a5d3bc4e9eabffacac3a6c9b00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияСервер.Module" id="d820d461-d67e-42e6-af75-07d5b2dcc819.0" configVersion="7ffe5b592bfd3942a08388563c242d8e00000000"/>
+		<Metadata name="Configuration.Портфелизатор" id="dc2322aa-0537-427e-b58c-e5110d7b9d5d" configVersion="bd4bba6394352a4b9c196332770ce88600000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК" id="0347614d-e50c-469e-bf48-6d7020ef0645" configVersion="4d1c78981b19c64a8d7a567c2b817abd00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма" id="63653d0d-22f3-48b9-816d-e3f5472164cc" configVersion="16e48f3ea89f06499bc7bf468afe1d7c00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма.Form" id="63653d0d-22f3-48b9-816d-e3f5472164cc.0" configVersion="46f58287e4ef4143ba6815b8d400a2b000000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля" id="790e0948-8869-4d03-8c7a-b7ac0e3c35ae" configVersion="b15f163ffcee134e8246faf3db40ccc700000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма" id="191c728d-c0ad-4a6b-89b5-780c59e0609f" configVersion="f3a32dfa2417ed428e5961742126666d00000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма.Form" id="191c728d-c0ad-4a6b-89b5-780c59e0609f.0" configVersion="91af20a7294d3346be7bb2239c06c4e200000000"/>
+		<Metadata name="DefinedType.ТипКотировки" id="196765d7-f383-4b1d-9aa7-ac9186cd5736" configVersion="c5f6960de1ccef46a711a63e551250c800000000"/>
+		<Metadata name="DefinedType.ТипТикера" id="825f1456-5c3a-490e-a2ec-9cfd616bb630" configVersion="769973acadaa11408f367512c93fd4f300000000"/>
+		<Metadata name="InformationRegister.Котировки" id="eb0055b1-3146-4149-8fc1-04ddf48383bf" configVersion="7270e61dac3c7d499bb405fd3d63045b00000000">
+			<Metadata name="InformationRegister.Котировки.Dimension.Тикер" id="49839f6e-9260-4b64-b3f1-a53a34300583"/>
+			<Metadata name="InformationRegister.Котировки.Resource.Котировка" id="a60de44b-8e72-465d-8a25-72036e98bd4c"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="1eca635a-4f31-483e-8a25-56d0aeb99828" configVersion="aa904870b29f5641892c72b02d92a3ff00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
