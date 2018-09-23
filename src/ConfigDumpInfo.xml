@@ -18,8 +18,8 @@
 		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма" id="63653d0d-22f3-48b9-816d-e3f5472164cc" configVersion="a12018378096e244a497c993aef1e92700000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма.Form" id="63653d0d-22f3-48b9-816d-e3f5472164cc.0" configVersion="9e13df6ab51861499fd6018c27ed231c00000000"/>
 		<Metadata name="DataProcessor.ТестированиеПортфеля" id="790e0948-8869-4d03-8c7a-b7ac0e3c35ae" configVersion="14469082cf50ed4aa2821554b2fbed6000000000"/>
-		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма" id="191c728d-c0ad-4a6b-89b5-780c59e0609f" configVersion="6a189237ddf54948adf80dea543e539d00000000"/>
-		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма.Form" id="191c728d-c0ad-4a6b-89b5-780c59e0609f.0" configVersion="5a70f57e0793034394f74c659e540c3500000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма" id="191c728d-c0ad-4a6b-89b5-780c59e0609f" configVersion="49160ae5f1bf5f4eb86c63c239f5d7c000000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма.Form" id="191c728d-c0ad-4a6b-89b5-780c59e0609f.0" configVersion="118e5f677af1794694c2bc4aa95f274c00000000"/>
 		<Metadata name="DefinedType.ТипКотировки" id="196765d7-f383-4b1d-9aa7-ac9186cd5736" configVersion="9f4816f89fc5794cb91c01dfdda0407d00000000"/>
 		<Metadata name="DefinedType.ТипТикера" id="825f1456-5c3a-490e-a2ec-9cfd616bb630" configVersion="c8eb384c7ad6224080e509aef966217000000000"/>
 		<Metadata name="InformationRegister.Котировки" id="eb0055b1-3146-4149-8fc1-04ddf48383bf" configVersion="1ea74744cdcfdc4bb36470547862e6ed00000000">
