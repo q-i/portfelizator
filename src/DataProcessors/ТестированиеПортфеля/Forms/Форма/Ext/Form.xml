@@ -58,6 +58,11 @@
 							<ContextMenu name="ПортфельКонтекстноеМеню" id="5"/>
 							<ExtendedTooltip name="ПортфельРасширеннаяПодсказка" id="6"/>
 						</InputField>
+						<InputField name="ПериодичностьРебалансировкиВДнях" id="138">
+							<DataPath>ПериодичностьРебалансировкиВДнях</DataPath>
+							<ContextMenu name="ПериодичностьРебалансировкиВДняхКонтекстноеМеню" id="139"/>
+							<ExtendedTooltip name="ПериодичностьРебалансировкиВДняхРасширеннаяПодсказка" id="140"/>
+						</InputField>
 						<CheckBoxField name="ФлагИспользоватьПредыдущуюКотировкуЕслиНетТекущей" id="91">
 							<DataPath>ФлагИспользоватьПредыдущуюКотировкуЕслиНетТекущей</DataPath>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -478,6 +483,25 @@
 			</Type>
 			<Save>
 				<Field>ФлагИспользоватьПредыдущуюКотировкуЕслиНетТекущей</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПериодичностьРебалансировкиВДнях" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Периодичность ребалансировки в днях (0 - без ребалансировки)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>ПериодичностьРебалансировкиВДнях</Field>
 			</Save>
 		</Attribute>
 	</Attributes>

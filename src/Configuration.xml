@@ -124,6 +124,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>ОбщегоНазначенияСервер</CommonModule>
+			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<DefinedType>ТипТикера</DefinedType>
 			<DefinedType>ТипКотировки</DefinedType>
 			<Catalog>Портфели</Catalog>
