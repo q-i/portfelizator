@@ -27,6 +27,7 @@
 			<ExtendedTooltip name="ТикерЭталонРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<Table name="СоставПортфеля" id="10">
+			<Footer>true</Footer>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -76,6 +77,7 @@
 				<InputField name="СоставПортфеляДоля" id="29">
 					<DataPath>Объект.СоставПортфеля.Доля</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.СоставПортфеля.TotalДоля</FooterDataPath>
 					<ContextMenu name="СоставПортфеляДоляКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="СоставПортфеляДоляРасширеннаяПодсказка" id="31"/>
 				</InputField>

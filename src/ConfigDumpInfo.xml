@@ -7,8 +7,8 @@
 			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля.Attribute.Доля" id="62309494-7c61-4eed-8b87-3e8ecbeab023"/>
 			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля.Attribute.Тикер" id="9dee4e0b-3594-4c53-b6f8-5cf0e05acb53"/>
 		</Metadata>
-		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="2bffd96b1f12c64390352d54a904337100000000"/>
-		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="50da71abab9dde4ab4be5818d37a2cdb00000000"/>
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="b4788d67ccefdd45aead6786d99d8d1a00000000"/>
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="9f807b51068a914496b7d501f7c7a09300000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="38a40542-057f-4475-a326-09ccae6e9d2d" configVersion="26af355859bf65498520c58124a3508700000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="38a40542-057f-4475-a326-09ccae6e9d2d.0" configVersion="bb54fd66eb67ba46a6472136581649ab00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="d820d461-d67e-42e6-af75-07d5b2dcc819" configVersion="637b38966436d943997a31dcb8805e7f00000000"/>
