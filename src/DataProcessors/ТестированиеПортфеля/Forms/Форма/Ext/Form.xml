@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -700,21 +700,21 @@
 				<d4p1:chartIsInit>true</d4p1:chartIsInit>
 				<d4p1:elementsChart>
 					<d4p1:left>0</d4p1:left>
-					<d4p1:right>0.1671974522292994</d4p1:right>
+					<d4p1:right>0.1666666666666667</d4p1:right>
 					<d4p1:top>0</d4p1:top>
 					<d4p1:bottom>0</d4p1:bottom>
 				</d4p1:elementsChart>
 				<d4p1:elementsLegend>
-					<d4p1:left>0.8328025477707001</d4p1:left>
+					<d4p1:left>0.833333333333333</d4p1:left>
 					<d4p1:right>0</d4p1:right>
-					<d4p1:top>0.047008547008547</d4p1:top>
+					<d4p1:top>0.0472222222222222</d4p1:top>
 					<d4p1:bottom>0</d4p1:bottom>
 				</d4p1:elementsLegend>
 				<d4p1:elementsTitle>
-					<d4p1:left>0.8328025477707001</d4p1:left>
+					<d4p1:left>0.833333333333333</d4p1:left>
 					<d4p1:right>0</d4p1:right>
 					<d4p1:top>0</d4p1:top>
-					<d4p1:bottom>0.9529914529914521</d4p1:bottom>
+					<d4p1:bottom>0.9527777777777771</d4p1:bottom>
 				</d4p1:elementsTitle>
 				<d4p1:borderColor>style:BorderColor</d4p1:borderColor>
 				<d4p1:border width="1">
@@ -767,11 +767,6 @@
 						<d4p1:borderColor>auto</d4p1:borderColor>
 					</d4p1:titleArea>
 				</d4p1:seriesScale>
-				<d4p1:legendPlacement>UseCoordinates</d4p1:legendPlacement>
-				<d4p1:plotAreaPlacement>UseCoordinates</d4p1:plotAreaPlacement>
-				<d4p1:titleAreaPlacement>UseCoordinates</d4p1:titleAreaPlacement>
-				<d4p1:colorPaletteDescription/>
-				<d4p1:referenceBandsColorPaletteDescription/>
 			</Settings>
 		</Attribute>
 		<Attribute name="Портфели" id="10">
@@ -858,7 +853,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Протестировать</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="Catalog.Портфели" id="2204501b-5463-47bc-883b-d8d8fdc34f34" configVersion="ce4232775b670a459c2dccd0df3b4a5300000000">
+		<Metadata name="Catalog.Портфели" id="2204501b-5463-47bc-883b-d8d8fdc34f34" configVersion="a59a8cf05baa6147b129f6caab26c96b00000000">
 			<Metadata name="Catalog.Портфели.Attribute.СпособРебалансировки" id="3f1138a9-e463-44eb-963c-b9b024efe66b"/>
 			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля" id="5aa54e2b-7bf1-4d2b-bc9a-793caa13f5ad"/>
 			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля.Attribute.Доля" id="62309494-7c61-4eed-8b87-3e8ecbeab023"/>
@@ -11,10 +11,10 @@
 			<Metadata name="Catalog.Портфели.TabularSection.СоставМетапортфеля.Attribute.Портфель" id="cd4bce8a-8429-430c-a36b-45110ea21961"/>
 			<Metadata name="Catalog.Портфели.Attribute.Метапортфель" id="d789ddb7-78ee-4156-a737-690a96bc5539"/>
 		</Metadata>
-		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="31048465bb323349bd7438aeeb2fb1b600000000"/>
-		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="fb0aa16daba16c44b99669abc4ea3e0300000000"/>
-		<Metadata name="Catalog.Портфели.ObjectModule" id="2204501b-5463-47bc-883b-d8d8fdc34f34.0" configVersion="2ac1741181ab4242b381cf15ba54a6f900000000"/>
-		<Metadata name="Catalog.СпособыРебалансировки" id="7c6395e1-9df7-4feb-9fba-e35f8dad12c3" configVersion="d5968f54dad9514f8bf868fe27e8382000000000">
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="38d74b8f229a35469f417e1605ffba0d00000000"/>
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="741780cd3f47c54795f9a9778dea335800000000"/>
+		<Metadata name="Catalog.Портфели.ObjectModule" id="2204501b-5463-47bc-883b-d8d8fdc34f34.0" configVersion="6d523c1cac94934abc6a1b0657282efa00000000"/>
+		<Metadata name="Catalog.СпособыРебалансировки" id="7c6395e1-9df7-4feb-9fba-e35f8dad12c3" configVersion="bd8adcac2263fd49af4ad55ae51341dd00000000">
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.НомерНедели" id="0d79676d-b0b8-431c-8ee4-c7b4c831bf1c"/>
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.ДеньНедели" id="11545f0e-f1e4-40ee-aa52-98b6588df176"/>
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.МесяцГода" id="2e7d01ea-473e-4b4b-8456-09d16ddd3ef8"/>
@@ -23,34 +23,34 @@
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.ДеньМесяца" id="b17be642-3434-429e-bcca-69e8d1bfb8ec"/>
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.Периодичность" id="c8f2d249-8a46-4d8f-9e78-fc9cd5b8abd1"/>
 		</Metadata>
-		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента" id="443dcbb1-7d59-47ac-8739-2593cb9042b7" configVersion="8214db715f485f4c8d2c69a4981bac4c00000000"/>
-		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента.Form" id="443dcbb1-7d59-47ac-8739-2593cb9042b7.0" configVersion="b0b159b060353b46aa588bee052738cb00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="38a40542-057f-4475-a326-09ccae6e9d2d" configVersion="efd861dfa47f8d4abb5c19f7bbc21a2200000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="38a40542-057f-4475-a326-09ccae6e9d2d.0" configVersion="78989f61089c2941a02f0d46c360f17e00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="d820d461-d67e-42e6-af75-07d5b2dcc819" configVersion="c6186a6adfa126428ef58a868bf8f2e100000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияСервер.Module" id="d820d461-d67e-42e6-af75-07d5b2dcc819.0" configVersion="188e089df5940440b5220bfd2901075100000000"/>
-		<Metadata name="Configuration.Портфелизатор" id="dc2322aa-0537-427e-b58c-e5110d7b9d5d" configVersion="e071bba98bbb47469e214c209ffc090500000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК" id="0347614d-e50c-469e-bf48-6d7020ef0645" configVersion="0528b23a26c93d498e1e36e24c5b2ebd00000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма" id="63653d0d-22f3-48b9-816d-e3f5472164cc" configVersion="a2594c836b6b0a438e6b2e36877ec09d00000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма.Form" id="63653d0d-22f3-48b9-816d-e3f5472164cc.0" configVersion="fe39b2c9c47cb040be5713f88132f10500000000"/>
-		<Metadata name="DataProcessor.ТестированиеПортфеля" id="790e0948-8869-4d03-8c7a-b7ac0e3c35ae" configVersion="9b38fffa2c4f0e4287343d11fda9ef7d00000000"/>
-		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма" id="191c728d-c0ad-4a6b-89b5-780c59e0609f" configVersion="1a1af03481851e49a0f783d5fa1fae3e00000000"/>
-		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма.Form" id="191c728d-c0ad-4a6b-89b5-780c59e0609f.0" configVersion="091e2e8e4e57ad4dba23fe6da307dd0e00000000"/>
-		<Metadata name="DefinedType.ТипКотировки" id="196765d7-f383-4b1d-9aa7-ac9186cd5736" configVersion="b60668f984c83f448173cb7cc275c4f300000000"/>
-		<Metadata name="DefinedType.ТипТикера" id="825f1456-5c3a-490e-a2ec-9cfd616bb630" configVersion="252a2be1d242ae4891433186669b4ff000000000"/>
-		<Metadata name="Enum.ВариантыВыбораДняМесяца" id="56770f60-bf5e-4928-b67f-19c6d586d83f" configVersion="9b6e9912107a574e9b560a1ed676188a00000000">
+		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента" id="443dcbb1-7d59-47ac-8739-2593cb9042b7" configVersion="49b14077cbdac147b07b1f6fe748ca5000000000"/>
+		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента.Form" id="443dcbb1-7d59-47ac-8739-2593cb9042b7.0" configVersion="2e81a859f302b743b6a8b37d14a55c5f00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="38a40542-057f-4475-a326-09ccae6e9d2d" configVersion="865a50a196aa6d43b52cef5ffa35120600000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="38a40542-057f-4475-a326-09ccae6e9d2d.0" configVersion="800f1becfd01244c85f1d0f4ba8ccefe00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="d820d461-d67e-42e6-af75-07d5b2dcc819" configVersion="1202be8b6b5e1d428105b46cbc0c351600000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияСервер.Module" id="d820d461-d67e-42e6-af75-07d5b2dcc819.0" configVersion="8e562638dcbd454ab817d1e6c0c475dc00000000"/>
+		<Metadata name="Configuration.Портфелизатор" id="dc2322aa-0537-427e-b58c-e5110d7b9d5d" configVersion="7d774ec31e8090488e64ec1c37b07ac300000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК" id="0347614d-e50c-469e-bf48-6d7020ef0645" configVersion="f056faf31f4e54438e60d3c715f1114400000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма" id="63653d0d-22f3-48b9-816d-e3f5472164cc" configVersion="e6aa5689d107c94bac803a5ff9fc75a700000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма.Form" id="63653d0d-22f3-48b9-816d-e3f5472164cc.0" configVersion="a26ca7efecb59347867f37eb8b16298600000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля" id="790e0948-8869-4d03-8c7a-b7ac0e3c35ae" configVersion="d1df53e57dc9bc41a73a00a23f635c5500000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма" id="191c728d-c0ad-4a6b-89b5-780c59e0609f" configVersion="3c446ea53a8a8a4fbab9f1a1d4921e2a00000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма.Form" id="191c728d-c0ad-4a6b-89b5-780c59e0609f.0" configVersion="3a9f0b327d1f3c4db950cea1314ef73d00000000"/>
+		<Metadata name="DefinedType.ТипКотировки" id="196765d7-f383-4b1d-9aa7-ac9186cd5736" configVersion="103d87582e758d4ebc988c2cf0857dcf00000000"/>
+		<Metadata name="DefinedType.ТипТикера" id="825f1456-5c3a-490e-a2ec-9cfd616bb630" configVersion="be102db740b3c448a48baa0a02d9c2b500000000"/>
+		<Metadata name="Enum.ВариантыВыбораДняМесяца" id="56770f60-bf5e-4928-b67f-19c6d586d83f" configVersion="9592488683a1964aa1db1a0ea0255e8800000000">
 			<Metadata name="Enum.ВариантыВыбораДняМесяца.EnumValue.ЧислоМесяца" id="09ff2bac-5dd6-46ae-88ab-ad8e28e7e916"/>
 			<Metadata name="Enum.ВариантыВыбораДняМесяца.EnumValue.ДеньНедели" id="275a465b-acd4-445b-8fc6-23962b3826ae"/>
 		</Metadata>
-		<Metadata name="Enum.ПериодичностьРебалансировки" id="c2da272a-4103-4126-9c97-0d6c347126be" configVersion="44e2bba28774734e8d0cfe394aa8925300000000">
+		<Metadata name="Enum.ПериодичностьРебалансировки" id="c2da272a-4103-4126-9c97-0d6c347126be" configVersion="53e2ea450a28e0479288b99b4265bddc00000000">
 			<Metadata name="Enum.ПериодичностьРебалансировки.EnumValue.Ежемесячно" id="69f3165b-cc76-437f-935e-d006734b47af"/>
 			<Metadata name="Enum.ПериодичностьРебалансировки.EnumValue.Ежедневно" id="ad6e3aca-69e6-435c-8375-ddee423b245d"/>
 			<Metadata name="Enum.ПериодичностьРебалансировки.EnumValue.Ежегодно" id="f732f1f0-e1c9-447a-a87a-408fd0f4c07e"/>
 		</Metadata>
-		<Metadata name="InformationRegister.Котировки" id="eb0055b1-3146-4149-8fc1-04ddf48383bf" configVersion="5458364ee2f1ae42a1271ec7606a921b00000000">
+		<Metadata name="InformationRegister.Котировки" id="eb0055b1-3146-4149-8fc1-04ddf48383bf" configVersion="14dda950735982488a3fa01c29ab8ad900000000">
 			<Metadata name="InformationRegister.Котировки.Dimension.Тикер" id="49839f6e-9260-4b64-b3f1-a53a34300583"/>
 			<Metadata name="InformationRegister.Котировки.Resource.Котировка" id="a60de44b-8e72-465d-8a25-72036e98bd4c"/>
 		</Metadata>
-		<Metadata name="Language.Русский" id="1eca635a-4f31-483e-8a25-56d0aeb99828" configVersion="0da3f8a19a25ec4f8ee13e5359026b2a00000000"/>
+		<Metadata name="Language.Русский" id="1eca635a-4f31-483e-8a25-56d0aeb99828" configVersion="4317e1b7f429db4983eaff462d8f28ae00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
