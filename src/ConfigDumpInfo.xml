@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
 	<ConfigVersions>
-		<Metadata name="Catalog.Портфели" id="2204501b-5463-47bc-883b-d8d8fdc34f34" configVersion="3fc3f8bfc8267f41bba774ed81a329a900000000">
+		<Metadata name="Catalog.Портфели" id="2204501b-5463-47bc-883b-d8d8fdc34f34" configVersion="ce4232775b670a459c2dccd0df3b4a5300000000">
+			<Metadata name="Catalog.Портфели.Attribute.СпособРебалансировки" id="3f1138a9-e463-44eb-963c-b9b024efe66b"/>
 			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля" id="5aa54e2b-7bf1-4d2b-bc9a-793caa13f5ad"/>
 			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля.Attribute.Доля" id="62309494-7c61-4eed-8b87-3e8ecbeab023"/>
+			<Metadata name="Catalog.Портфели.TabularSection.СоставМетапортфеля" id="87d07e29-95a9-418a-ae36-08e7a349e372"/>
 			<Metadata name="Catalog.Портфели.TabularSection.СоставПортфеля.Attribute.Тикер" id="9dee4e0b-3594-4c53-b6f8-5cf0e05acb53"/>
+			<Metadata name="Catalog.Портфели.TabularSection.СоставМетапортфеля.Attribute.Дата" id="c57e4b8f-8feb-4761-a08e-cc0c9225f6ec"/>
+			<Metadata name="Catalog.Портфели.TabularSection.СоставМетапортфеля.Attribute.Портфель" id="cd4bce8a-8429-430c-a36b-45110ea21961"/>
+			<Metadata name="Catalog.Портфели.Attribute.Метапортфель" id="d789ddb7-78ee-4156-a737-690a96bc5539"/>
 		</Metadata>
-		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="25fc61342fdfa04a94ca074ad7f8e10f00000000"/>
-		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="cebac7b57325954cbd94dab078ee0ca100000000"/>
-		<Metadata name="Catalog.СпособыРебалансировки" id="7c6395e1-9df7-4feb-9fba-e35f8dad12c3" configVersion="62dc9b332dcfd64f88dd9bf8bfa9c17c00000000">
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="31048465bb323349bd7438aeeb2fb1b600000000"/>
+		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="fb0aa16daba16c44b99669abc4ea3e0300000000"/>
+		<Metadata name="Catalog.Портфели.ObjectModule" id="2204501b-5463-47bc-883b-d8d8fdc34f34.0" configVersion="2ac1741181ab4242b381cf15ba54a6f900000000"/>
+		<Metadata name="Catalog.СпособыРебалансировки" id="7c6395e1-9df7-4feb-9fba-e35f8dad12c3" configVersion="d5968f54dad9514f8bf868fe27e8382000000000">
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.НомерНедели" id="0d79676d-b0b8-431c-8ee4-c7b4c831bf1c"/>
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.ДеньНедели" id="11545f0e-f1e4-40ee-aa52-98b6588df176"/>
 			<Metadata name="Catalog.СпособыРебалансировки.Attribute.МесяцГода" id="2e7d01ea-473e-4b4b-8456-09d16ddd3ef8"/>
@@ -19,8 +25,8 @@
 		</Metadata>
 		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента" id="443dcbb1-7d59-47ac-8739-2593cb9042b7" configVersion="8214db715f485f4c8d2c69a4981bac4c00000000"/>
 		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента.Form" id="443dcbb1-7d59-47ac-8739-2593cb9042b7.0" configVersion="b0b159b060353b46aa588bee052738cb00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="38a40542-057f-4475-a326-09ccae6e9d2d" configVersion="4bb52114069fc1418b2bf1763c98963700000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="38a40542-057f-4475-a326-09ccae6e9d2d.0" configVersion="66145e2f0093c94e938e995bdd99df1e00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="38a40542-057f-4475-a326-09ccae6e9d2d" configVersion="efd861dfa47f8d4abb5c19f7bbc21a2200000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="38a40542-057f-4475-a326-09ccae6e9d2d.0" configVersion="78989f61089c2941a02f0d46c360f17e00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="d820d461-d67e-42e6-af75-07d5b2dcc819" configVersion="c6186a6adfa126428ef58a868bf8f2e100000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер.Module" id="d820d461-d67e-42e6-af75-07d5b2dcc819.0" configVersion="188e089df5940440b5220bfd2901075100000000"/>
 		<Metadata name="Configuration.Портфелизатор" id="dc2322aa-0537-427e-b58c-e5110d7b9d5d" configVersion="e071bba98bbb47469e214c209ffc090500000000"/>
@@ -28,8 +34,8 @@
 		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма" id="63653d0d-22f3-48b9-816d-e3f5472164cc" configVersion="a2594c836b6b0a438e6b2e36877ec09d00000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаКотировокРБК.Form.Форма.Form" id="63653d0d-22f3-48b9-816d-e3f5472164cc.0" configVersion="fe39b2c9c47cb040be5713f88132f10500000000"/>
 		<Metadata name="DataProcessor.ТестированиеПортфеля" id="790e0948-8869-4d03-8c7a-b7ac0e3c35ae" configVersion="9b38fffa2c4f0e4287343d11fda9ef7d00000000"/>
-		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма" id="191c728d-c0ad-4a6b-89b5-780c59e0609f" configVersion="02861c73f682084a96103d876e44be7e00000000"/>
-		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма.Form" id="191c728d-c0ad-4a6b-89b5-780c59e0609f.0" configVersion="77e5f8385aa2264bb6a2181177fc6e0a00000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма" id="191c728d-c0ad-4a6b-89b5-780c59e0609f" configVersion="1a1af03481851e49a0f783d5fa1fae3e00000000"/>
+		<Metadata name="DataProcessor.ТестированиеПортфеля.Form.Форма.Form" id="191c728d-c0ad-4a6b-89b5-780c59e0609f.0" configVersion="091e2e8e4e57ad4dba23fe6da307dd0e00000000"/>
 		<Metadata name="DefinedType.ТипКотировки" id="196765d7-f383-4b1d-9aa7-ac9186cd5736" configVersion="b60668f984c83f448173cb7cc275c4f300000000"/>
 		<Metadata name="DefinedType.ТипТикера" id="825f1456-5c3a-490e-a2ec-9cfd616bb630" configVersion="252a2be1d242ae4891433186669b4ff000000000"/>
 		<Metadata name="Enum.ВариантыВыбораДняМесяца" id="56770f60-bf5e-4928-b67f-19c6d586d83f" configVersion="9b6e9912107a574e9b560a1ed676188a00000000">

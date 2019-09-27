@@ -4,6 +4,7 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -26,63 +27,185 @@
 			<ContextMenu name="ТикерЭталонКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ТикерЭталонРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<Table name="СоставПортфеля" id="10">
-			<Footer>true</Footer>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.СоставПортфеля</DataPath>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="СоставПортфеляКонтекстноеМеню" id="11"/>
-			<AutoCommandBar name="СоставПортфеляКоманднаяПанель" id="12"/>
-			<ExtendedTooltip name="СоставПортфеляРасширеннаяПодсказка" id="13"/>
-			<SearchStringAddition name="СоставПортфеляСтрокаПоиска" id="14">
-				<AdditionSource>
-					<Item>СоставПортфеля</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СоставПортфеляСтрокаПоискаКонтекстноеМеню" id="15"/>
-				<ExtendedTooltip name="СоставПортфеляСтрокаПоискаРасширеннаяПодсказка" id="16"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="СоставПортфеляСостояниеПросмотра" id="17">
-				<AdditionSource>
-					<Item>СоставПортфеля</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СоставПортфеляСостояниеПросмотраКонтекстноеМеню" id="18"/>
-				<ExtendedTooltip name="СоставПортфеляСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="СоставПортфеляУправлениеПоиском" id="20">
-				<AdditionSource>
-					<Item>СоставПортфеля</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="СоставПортфеляУправлениеПоискомКонтекстноеМеню" id="21"/>
-				<ExtendedTooltip name="СоставПортфеляУправлениеПоискомРасширеннаяПодсказка" id="22"/>
-			</SearchControlAddition>
+		<CheckBoxField name="Метапортфель" id="32">
+			<DataPath>Объект.Метапортфель</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="МетапортфельКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="МетапортфельРасширеннаяПодсказка" id="34"/>
+			<Events>
+				<Event name="OnChange">МетапортфельПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<Pages name="ГруппаСтраницСостав" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страниц состав</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страниц состав</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницСоставРасширеннаяПодсказка" id="36"/>
 			<ChildItems>
-				<LabelField name="СоставПортфеляНомерСтроки" id="23">
-					<DataPath>Объект.СоставПортфеля.LineNumber</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СоставПортфеляНомерСтрокиКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="СоставПортфеляНомерСтрокиРасширеннаяПодсказка" id="25"/>
-				</LabelField>
-				<InputField name="СоставПортфеляТикер" id="26">
-					<DataPath>Объект.СоставПортфеля.Тикер</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<DropListButton>true</DropListButton>
-					<ContextMenu name="СоставПортфеляТикерКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="СоставПортфеляТикерРасширеннаяПодсказка" id="28"/>
-				</InputField>
-				<InputField name="СоставПортфеляДоля" id="29">
-					<DataPath>Объект.СоставПортфеля.Доля</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<FooterDataPath>Объект.СоставПортфеля.TotalДоля</FooterDataPath>
-					<ContextMenu name="СоставПортфеляДоляКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="СоставПортфеляДоляРасширеннаяПодсказка" id="31"/>
-				</InputField>
+				<Page name="СтраницаСоставПортфеля" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состав портфеля</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница состав портфеля</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСоставПортфеляРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<InputField name="СпособРебалансировки" id="63">
+							<DataPath>Объект.СпособРебалансировки</DataPath>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="СпособРебалансировкиКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="СпособРебалансировкиРасширеннаяПодсказка" id="65"/>
+						</InputField>
+						<Table name="СоставПортфеля" id="10">
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СоставПортфеля</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СоставПортфеляКонтекстноеМеню" id="11"/>
+							<AutoCommandBar name="СоставПортфеляКоманднаяПанель" id="12"/>
+							<ExtendedTooltip name="СоставПортфеляРасширеннаяПодсказка" id="13"/>
+							<SearchStringAddition name="СоставПортфеляСтрокаПоиска" id="14">
+								<AdditionSource>
+									<Item>СоставПортфеля</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставПортфеляСтрокаПоискаКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="СоставПортфеляСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СоставПортфеляСостояниеПросмотра" id="17">
+								<AdditionSource>
+									<Item>СоставПортфеля</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставПортфеляСостояниеПросмотраКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="СоставПортфеляСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СоставПортфеляУправлениеПоиском" id="20">
+								<AdditionSource>
+									<Item>СоставПортфеля</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставПортфеляУправлениеПоискомКонтекстноеМеню" id="21"/>
+								<ExtendedTooltip name="СоставПортфеляУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СоставПортфеляНомерСтроки" id="23">
+									<DataPath>Объект.СоставПортфеля.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СоставПортфеляНомерСтрокиКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="СоставПортфеляНомерСтрокиРасширеннаяПодсказка" id="25"/>
+								</LabelField>
+								<InputField name="СоставПортфеляТикер" id="26">
+									<DataPath>Объект.СоставПортфеля.Тикер</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<DropListButton>true</DropListButton>
+									<ContextMenu name="СоставПортфеляТикерКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="СоставПортфеляТикерРасширеннаяПодсказка" id="28"/>
+								</InputField>
+								<InputField name="СоставПортфеляДоля" id="29">
+									<DataPath>Объект.СоставПортфеля.Доля</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.СоставПортфеля.TotalДоля</FooterDataPath>
+									<ContextMenu name="СоставПортфеляДоляКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="СоставПортфеляДоляРасширеннаяПодсказка" id="31"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСоставМетапортфеля" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состав метапортфеля</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница состав метапортфеля</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСоставМетапортфеляРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<Table name="СоставМетапортфеля" id="41">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СоставМетапортфеля</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СоставМетапортфеляКонтекстноеМеню" id="42"/>
+							<AutoCommandBar name="СоставМетапортфеляКоманднаяПанель" id="43"/>
+							<ExtendedTooltip name="СоставМетапортфеляРасширеннаяПодсказка" id="44"/>
+							<SearchStringAddition name="СоставМетапортфеляСтрокаПоиска" id="45">
+								<AdditionSource>
+									<Item>СоставМетапортфеля</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставМетапортфеляСтрокаПоискаКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="СоставМетапортфеляСтрокаПоискаРасширеннаяПодсказка" id="47"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СоставМетапортфеляСостояниеПросмотра" id="48">
+								<AdditionSource>
+									<Item>СоставМетапортфеля</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставМетапортфеляСостояниеПросмотраКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="СоставМетапортфеляСостояниеПросмотраРасширеннаяПодсказка" id="50"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СоставМетапортфеляУправлениеПоиском" id="51">
+								<AdditionSource>
+									<Item>СоставМетапортфеля</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СоставМетапортфеляУправлениеПоискомКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="СоставМетапортфеляУправлениеПоискомРасширеннаяПодсказка" id="53"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СоставМетапортфеляДата" id="57">
+									<DataPath>Объект.СоставМетапортфеля.Дата</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СоставМетапортфеляДатаКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="СоставМетапортфеляДатаРасширеннаяПодсказка" id="59"/>
+								</InputField>
+								<InputField name="СоставМетапортфеляПортфель" id="60">
+									<DataPath>Объект.СоставМетапортфеля.Портфель</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameters>
+										<app:item name="Отбор.Метапортфель">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+									</ChoiceParameters>
+									<ContextMenu name="СоставМетапортфеляПортфельКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="СоставМетапортфеляПортфельРасширеннаяПодсказка" id="62"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 			</ChildItems>
-		</Table>
+		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
