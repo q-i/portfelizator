@@ -8,17 +8,17 @@
 		</Metadata>
 		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента" id="b91f81e5-2758-4873-921b-d41bf980ae48" configVersion="25fc61342fdfa04a94ca074ad7f8e10f00000000"/>
 		<Metadata name="Catalog.Портфели.Form.ФормаЭлемента.Form" id="b91f81e5-2758-4873-921b-d41bf980ae48.0" configVersion="cebac7b57325954cbd94dab078ee0ca100000000"/>
-		<Metadata name="Catalog.Ребалансировки" id="7c6395e1-9df7-4feb-9fba-e35f8dad12c3" configVersion="0af52aa896ec4b4daaa18a64aff8b88100000000">
-			<Metadata name="Catalog.Ребалансировки.Attribute.НомерДняНедели" id="0d79676d-b0b8-431c-8ee4-c7b4c831bf1c"/>
-			<Metadata name="Catalog.Ребалансировки.Attribute.ДеньНедели" id="11545f0e-f1e4-40ee-aa52-98b6588df176"/>
-			<Metadata name="Catalog.Ребалансировки.Attribute.МесяцГода" id="2e7d01ea-473e-4b4b-8456-09d16ddd3ef8"/>
-			<Metadata name="Catalog.Ребалансировки.Attribute.ВариантВыбораДняМесяца" id="4fc3f2ad-db43-4507-95ad-54d84a1c3ffd"/>
-			<Metadata name="Catalog.Ребалансировки.Attribute.ЧислоПериодов" id="62ca540b-c0cc-4fc3-a8c2-d2abd27da7b8"/>
-			<Metadata name="Catalog.Ребалансировки.Attribute.ДеньМесяца" id="b17be642-3434-429e-bcca-69e8d1bfb8ec"/>
-			<Metadata name="Catalog.Ребалансировки.Attribute.Периодичность" id="c8f2d249-8a46-4d8f-9e78-fc9cd5b8abd1"/>
+		<Metadata name="Catalog.СпособыРебалансировки" id="7c6395e1-9df7-4feb-9fba-e35f8dad12c3" configVersion="62dc9b332dcfd64f88dd9bf8bfa9c17c00000000">
+			<Metadata name="Catalog.СпособыРебалансировки.Attribute.НомерНедели" id="0d79676d-b0b8-431c-8ee4-c7b4c831bf1c"/>
+			<Metadata name="Catalog.СпособыРебалансировки.Attribute.ДеньНедели" id="11545f0e-f1e4-40ee-aa52-98b6588df176"/>
+			<Metadata name="Catalog.СпособыРебалансировки.Attribute.МесяцГода" id="2e7d01ea-473e-4b4b-8456-09d16ddd3ef8"/>
+			<Metadata name="Catalog.СпособыРебалансировки.Attribute.ВариантВыбораДняМесяца" id="4fc3f2ad-db43-4507-95ad-54d84a1c3ffd"/>
+			<Metadata name="Catalog.СпособыРебалансировки.Attribute.ЧислоПериодов" id="62ca540b-c0cc-4fc3-a8c2-d2abd27da7b8"/>
+			<Metadata name="Catalog.СпособыРебалансировки.Attribute.ДеньМесяца" id="b17be642-3434-429e-bcca-69e8d1bfb8ec"/>
+			<Metadata name="Catalog.СпособыРебалансировки.Attribute.Периодичность" id="c8f2d249-8a46-4d8f-9e78-fc9cd5b8abd1"/>
 		</Metadata>
-		<Metadata name="Catalog.Ребалансировки.Form.ФормаЭлемента" id="443dcbb1-7d59-47ac-8739-2593cb9042b7" configVersion="624d34b5580606449277fbe05a758a4900000000"/>
-		<Metadata name="Catalog.Ребалансировки.Form.ФормаЭлемента.Form" id="443dcbb1-7d59-47ac-8739-2593cb9042b7.0" configVersion="5ae6df91369126479f71b3b80181cb8600000000"/>
+		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента" id="443dcbb1-7d59-47ac-8739-2593cb9042b7" configVersion="8214db715f485f4c8d2c69a4981bac4c00000000"/>
+		<Metadata name="Catalog.СпособыРебалансировки.Form.ФормаЭлемента.Form" id="443dcbb1-7d59-47ac-8739-2593cb9042b7.0" configVersion="b0b159b060353b46aa588bee052738cb00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="38a40542-057f-4475-a326-09ccae6e9d2d" configVersion="4bb52114069fc1418b2bf1763c98963700000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="38a40542-057f-4475-a326-09ccae6e9d2d.0" configVersion="66145e2f0093c94e938e995bdd99df1e00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="d820d461-d67e-42e6-af75-07d5b2dcc819" configVersion="c6186a6adfa126428ef58a868bf8f2e100000000"/>

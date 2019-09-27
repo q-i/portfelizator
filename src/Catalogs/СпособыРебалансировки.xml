@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Catalog uuid="7c6395e1-9df7-4feb-9fba-e35f8dad12c3">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Ребалансировки" category="Object">
+			<xr:GeneratedType name="CatalogObject.СпособыРебалансировки" category="Object">
 				<xr:TypeId>cb0fb514-dc0a-479c-9bc4-9c2a4cc83e00</xr:TypeId>
 				<xr:ValueId>93437e69-4ff6-4e46-89dc-6fd8ce199ffc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Ребалансировки" category="Ref">
+			<xr:GeneratedType name="CatalogRef.СпособыРебалансировки" category="Ref">
 				<xr:TypeId>45142f98-5c51-40e8-9442-458c38400619</xr:TypeId>
 				<xr:ValueId>d48ae3df-ef4e-4bcd-877b-b5200d27c9b4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Ребалансировки" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.СпособыРебалансировки" category="Selection">
 				<xr:TypeId>dd33e823-b10a-4ee7-830a-c066457adead</xr:TypeId>
 				<xr:ValueId>7262ca7a-13fb-4efc-9f62-a43993b6a834</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Ребалансировки" category="List">
+			<xr:GeneratedType name="CatalogList.СпособыРебалансировки" category="List">
 				<xr:TypeId>8dc5cfda-e8ee-459c-bb74-5ab924748203</xr:TypeId>
 				<xr:ValueId>81961bba-057b-49b9-8cdc-a49477478dbe</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Ребалансировки" category="Manager">
+			<xr:GeneratedType name="CatalogManager.СпособыРебалансировки" category="Manager">
 				<xr:TypeId>b5ae4c2f-3601-472d-ab98-1a8d6a0e54bf</xr:TypeId>
 				<xr:ValueId>92521145-a07f-45fa-b649-c18df586f461</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Ребалансировки</Name>
+			<Name>СпособыРебалансировки</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ребалансировки</v8:content>
+					<v8:content>Способы ребалансировки</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -54,13 +54,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Ребалансировки.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Ребалансировки.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.СпособыРебалансировки.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.СпособыРебалансировки.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Ребалансировки.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.СпособыРебалансировки.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -302,11 +302,11 @@
 			</Attribute>
 			<Attribute uuid="0d79676d-b0b8-431c-8ee4-c7b4c831bf1c">
 				<Properties>
-					<Name>НомерДняНедели</Name>
+					<Name>НомерНедели</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер дня недели</v8:content>
+							<v8:content>Номер недели</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
