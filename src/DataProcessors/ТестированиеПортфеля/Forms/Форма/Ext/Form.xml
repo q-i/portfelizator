@@ -186,17 +186,17 @@
 								<ExtendedTooltip name="СтатистикаУправлениеПоискомРасширеннаяПодсказка" id="180"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<InputField name="СтатистикаПоказатель" id="181">
-									<DataPath>Статистика.Показатель</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СтатистикаПоказательКонтекстноеМеню" id="182"/>
-									<ExtendedTooltip name="СтатистикаПоказательРасширеннаяПодсказка" id="183"/>
-								</InputField>
 								<InputField name="СтатистикаПортфель" id="184">
 									<DataPath>Статистика.Портфель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СтатистикаПортфельКонтекстноеМеню" id="185"/>
 									<ExtendedTooltip name="СтатистикаПортфельРасширеннаяПодсказка" id="186"/>
+								</InputField>
+								<InputField name="СтатистикаПоказатель" id="181">
+									<DataPath>Статистика.Показатель</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СтатистикаПоказательКонтекстноеМеню" id="182"/>
+									<ExtendedTooltip name="СтатистикаПоказательРасширеннаяПодсказка" id="183"/>
 								</InputField>
 								<InputField name="СтатистикаЗначение" id="187">
 									<DataPath>Статистика.Значение</DataPath>
@@ -533,11 +533,7 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.Портфели</v8:Type>
 					</Type>
 				</Column>
 				<Column name="Значение" id="3">
