@@ -82,7 +82,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Повторять каждый</v8:content>
+											<v8:content>Повторять каждые</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьПовторятьЕжедневноКонтекстноеМеню" id="72"/>
@@ -98,7 +98,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>день</v8:content>
+											<v8:content>день/дня/дней</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьДеньКонтекстноеМеню" id="18"/>
@@ -284,6 +284,51 @@
 					</ToolTip>
 					<ExtendedTooltip name="ЕжегодноРасширеннаяПодсказка" id="104"/>
 					<ChildItems>
+						<UsualGroup name="ГруппаГод" id="153">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа год</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа год</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаГодРасширеннаяПодсказка" id="154"/>
+							<ChildItems>
+								<LabelDecoration name="НадписьПовторятьЕжегодно" id="147">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Повторять каждые</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НадписьПовторятьЕжегодноКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="НадписьПовторятьЕжегодноРасширеннаяПодсказка" id="149"/>
+								</LabelDecoration>
+								<InputField name="ЧислоПериодовЕжегодно" id="150">
+									<DataPath>Объект.ЧислоПериодов</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="ЧислоПериодовЕжегодноКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="ЧислоПериодовЕжегодноРасширеннаяПодсказка" id="152"/>
+								</InputField>
+								<LabelDecoration name="НадписьГод" id="155">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>года(а)/лет</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НадписьГодКонтекстноеМеню" id="156"/>
+									<ExtendedTooltip name="НадписьГодРасширеннаяПодсказка" id="157"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
 						<InputField name="ВариантВыбораДняМесяцаГода" id="121">
 							<DataPath>Объект.ВариантВыбораДняМесяца</DataPath>
 							<ContextMenu name="ВариантВыбораДняМесяцаГодаКонтекстноеМеню" id="122"/>
