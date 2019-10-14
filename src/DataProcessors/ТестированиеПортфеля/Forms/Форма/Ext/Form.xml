@@ -231,7 +231,16 @@
 							<DataPath>Протокол</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ПротоколКонтекстноеМеню" id="27"/>
-							<AutoCommandBar name="ПротоколКоманднаяПанель" id="28"/>
+							<AutoCommandBar name="ПротоколКоманднаяПанель" id="28">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ПротоколОчиститьПротокол" id="215">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОчиститьПротокол</CommandName>
+										<ExtendedTooltip name="ПротоколОчиститьПротоколРасширеннаяПодсказка" id="216"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="ПротоколРасширеннаяПодсказка" id="29"/>
 							<SearchStringAddition name="ПротоколСтрокаПоиска" id="30">
 								<AdditionSource>
@@ -853,6 +862,26 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Протестировать</Action>
+		</Command>
+		<Command name="ОчиститьПротокол" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить протокол</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить протокол</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Clear</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОчиститьПротокол</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>
