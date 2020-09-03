@@ -131,7 +131,7 @@
 			<Catalog>СпособыРебалансировки</Catalog>
 			<Enum>ПериодичностьРебалансировки</Enum>
 			<Enum>ВариантыВыбораДняМесяца</Enum>
-			<DataProcessor>ЗагрузкаКотировокРБК</DataProcessor>
+			<DataProcessor>ЗагрузкаКотировок</DataProcessor>
 			<DataProcessor>ТестированиеПортфеля</DataProcessor>
 			<InformationRegister>Котировки</InformationRegister>
 		</ChildObjects>

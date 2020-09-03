@@ -11,11 +11,11 @@
 			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<InputField name="Источник" id="12">
-			<DataPath>Источник</DataPath>
-			<ListChoiceMode>true</ListChoiceMode>
-			<ContextMenu name="ИсточникКонтекстноеМеню" id="13"/>
-			<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="14"/>
+		<InputField name="ИдентификаторыРежимовТоргов" id="12">
+			<DataPath>ИдентификаторыРежимовТоргов</DataPath>
+			<DropListButton>true</DropListButton>
+			<ContextMenu name="ИдентификаторыРежимовТорговКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ИдентификаторыРежимовТорговРасширеннаяПодсказка" id="14"/>
 		</InputField>
 		<InputField name="Тикер" id="4">
 			<DataPath>Тикер</DataPath>
@@ -23,12 +23,6 @@
 			<ClearButton>true</ClearButton>
 			<ContextMenu name="ТикерКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ТикерРасширеннаяПодсказка" id="6"/>
-		</InputField>
-		<InputField name="УРЛ" id="7">
-			<DataPath>УРЛ</DataPath>
-			<MultiLine>true</MultiLine>
-			<ContextMenu name="УРЛКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="УРЛРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<Button name="Загрузить" id="10">
 			<Type>UsualButton</Type>
@@ -39,7 +33,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.ЗагрузкаКотировокРБК</v8:Type>
+				<v8:Type>cfg:DataProcessorObject.ЗагрузкаКотировок</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
@@ -56,21 +50,6 @@
 			<Save>
 				<Field>Период</Field>
 			</Save>
-		</Attribute>
-		<Attribute name="УРЛ" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>УРЛ</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
 		</Attribute>
 		<Attribute name="Тикер" id="6">
 			<Title>
@@ -90,11 +69,11 @@
 				<Field>Тикер</Field>
 			</Save>
 		</Attribute>
-		<Attribute name="Источник" id="7">
+		<Attribute name="ИдентификаторыРежимовТоргов" id="7">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Источник</v8:content>
+					<v8:content>Идентификаторы режимов торгов</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -105,7 +84,7 @@
 				</v8:StringQualifiers>
 			</Type>
 			<Save>
-				<Field>Источник</Field>
+				<Field>ИдентификаторыРежимовТоргов</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
